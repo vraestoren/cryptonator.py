@@ -3,8 +3,9 @@ Web-API for [cryptonator.com](https://www.cryptonator.com) website which is an a
 
 ## Example
 ```python
-import cryptonator
-cryptonator = cryptonator.Cryptonator()
+from cryptonator import Cryptonator
+
+cryptonator = Cryptonator()
 currencies = cryptonator.get_currencies()
 print(currencies)
 ```
